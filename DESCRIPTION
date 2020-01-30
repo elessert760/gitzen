@@ -1,0 +1,14 @@
+Package: gitzen
+Title: Create Standard Git Commit Messages
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Eric",
+           family = "Lessert",
+           role = c("aut", "cre"),
+           email = "elesert760@gmail.com")
+Description: Commit messages are important means of communication between team members. This packages attempst to put some guidleines
+  around how commit messages are created.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
