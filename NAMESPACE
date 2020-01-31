@@ -2,4 +2,5 @@
 
 export(get_commit_subject)
 export(get_commit_type)
+importFrom(crayon,bold)
 importFrom(dplyr,mutate)
