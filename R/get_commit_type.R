@@ -4,6 +4,7 @@
 #'
 #' @return a character vector
 #' @export
+#' @importFrom dplyr mutate
 #'
 #' @examples
 #' get_commit_type()
@@ -14,6 +15,6 @@ get_commit_type <- function() {
   if(commit_type %in% c("feature", "bugfix", "refactor", "docs", "chore")){
     commit_type
   } else{
-    stop("commit type must be one of: (feature | bugfix | refactor | docs | chore) ")
+    commit_type <- "Inconsistent Commit"
   }
   }
