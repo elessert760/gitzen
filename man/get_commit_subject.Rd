@@ -7,12 +7,11 @@
 get_commit_subject()
 }
 \value{
-
+a character vector
 }
 \description{
 get a commit subject
 }
 \examples{
 get_commit_subject()
-
 }
