@@ -16,3 +16,5 @@ Imports:
     dplyr,
     crayon,
     utils
+Suggests: 
+    testthat (>= 2.1.0)
