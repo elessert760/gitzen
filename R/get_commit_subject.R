@@ -21,3 +21,4 @@ get_commit_subject <- function() {
   }
 
 }
+

@@ -6,12 +6,12 @@
 \usage{
 git_log()
 }
-\arguments{
-\item{as_tiible}{}
-}
 \value{
 tibble
 }
 \description{
 Git Log
+}
+\examples{
+git_log()
 }
