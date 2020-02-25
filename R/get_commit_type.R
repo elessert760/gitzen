@@ -4,7 +4,7 @@
 #'
 #' @return a character vector
 #' @export
-#' @importFrom utils menu
+#' @importFrom utils select.list
 #'
 #'
 #' @examples
@@ -13,7 +13,9 @@
 get_commit_type <- function() {
   if(interactive()){
   cat("Choose a commit type:")
-  out <- utils::menu(c("feature", "fix", "bug", "refactor", "docs"))
+  out <- utils::select.list(sort(c("Feature", "Bug-Fix", "Enhancement", "Documentation", "Issue")))
+
   out
+
   }
 }
