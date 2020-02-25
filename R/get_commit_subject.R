@@ -9,7 +9,7 @@
 get_commit_subject <- function() {
   if (interactive()) {
     x <- paste0("\nWhat is the subject of this commit? \n",
-      crayon::bold("This should be a one line description of what this commit is about \n "))
+      crayon::bold("This should be a one line description of what this changes \n "))
 
     cat(x)
     commit_subject <- readline()

@@ -14,8 +14,6 @@ get_commit_type <- function() {
   if(interactive()){
   cat("Choose a commit type:")
   out <- utils::select.list(sort(c("Feature", "Bug-Fix", "Enhancement", "Documentation", "Issue")))
-
   out
-
   }
 }
