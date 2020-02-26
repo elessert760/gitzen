@@ -6,7 +6,7 @@ commit <- function(file_path = "R/*.R") {
   message <- paste("Type:", type,
                    "- Subject:", subject,
                    "- Changes:", paste(changes, collapse = " "))
-  if(message == "" || length(message) == 0){
+  if(changes == "" || length(changes) == 0){
     stop(crayon::bold("There are no staged changes, try git add"))
   }
 
