@@ -14,6 +14,7 @@ get_commit_subject <- function() {
 
     cat(x)
     commit_subject <- readline()
+
     if (is.na(commit_subject) || commit_subject == "" || commit_subject == "[[:space:]]+") {
       commit_subject <- "no commit subject provided"
     }
